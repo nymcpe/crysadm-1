@@ -4,7 +4,7 @@ services:
   - redis
   
 env:
-  - REDIS_PASSWORD="JdCZiEuKi"
+  - REDIS_PASSWORD=""
   
 script:
   - pip install -r requirements.txt
